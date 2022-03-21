@@ -122,7 +122,7 @@ public class bankEgwithInterface {
     public static void main(String[] args) {
         PhoneNumber phoneNInd = new PhoneNumber("+91", "12345657890");
         SBIaccount sbi = new SBIaccount("Ashwesh", 0.0, 1, phoneNInd);
-        PhoneNumber phoneNUSA = new PhoneNumber("+1", "5465456450");
+        PhoneNumber phoneNUSA = new PhoneNumber("+1", "12151455");
         ICICIaccount icici = new ICICIaccount("ABC", 0.0, 1,phoneNUSA);
         // SBI operations
         System.out.println("---- Showing SBI feature ----");
